@@ -1,0 +1,17 @@
+{
+    "name": "Login plus Calc",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": [
+                "dbaeumer.vscode-eslint",
+                "esbenp.prettier-vscode",
+                "bradlc.vscode-tailwindcss"
+            ]
+        }
+    },
+    "forwardPorts": [5173]
+}
